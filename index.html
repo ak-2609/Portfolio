@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushka Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="about-container">
+                    <div class="profile-pic">
+                        <img src="./assets/Profile pic.png" alt="Anushka Kumar">
+                    </div>
+                    <div class="profile-content">
+                        <h1>Hello, I'm Anushka Kumar</h1>
+                        <p class="title">Computer Science Student</p>
+                        <p class="description">
+                          I’m a student at GRIET with a strong interest in mobile app development and a commitment to continuous learning. Eager to broaden my skill set, I explore various areas of tech to become well-rounded in my field. I enjoy designing intuitive, visually engaging interfaces that provide seamless user experiences. With a focus on balancing creativity and functionality, I strive to contribute to innovative projects and grow as a versatile developer.
+
+                        </p>
+                        <div class="btn-container">
+                          <button
+                            class="btn btn-color-2"
+                            onclick="window.open('./assets/RESUME.pdf')"
+                          >
+                            Resume
+                          </button>
+                          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                            Contact Info
+                          </button>
+                        </div>
+                        <div id="socials-container">
+                          <img
+                            src="./assets/linkedin.png"
+                            alt="My LinkedIn profile"
+                            class="icon"
+                            onclick="location.href='https://www.linkedin.com/in/anushka-kumar-37b9a3293/'"
+                          />
+                          <img
+                            src="./assets/github.png"
+                            alt="My Github profile"
+                            class="icon"
+                            onclick="location.href='https://github.com/ak-2609'"
+                          />
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-grid">
+                    <div class="experience-item">
+                        <h3>AI Generation Hackathon Winner</h3>
+                        <p class="date">March 2024</p>
+                        <p>GRIET</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>National Level Robotics Competition Finalist</h3>
+                        <p class="date">March 2024</p>
+                        <p>IIT BHU</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>AWS Cloud Virtual Internship</h3>
+                        <p class="date">Jan-Mar 2024</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>AAC Expo Project Presentation</h3>
+                        <p class="date">December 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <img src="./assets/BikerX.png" alt="BikerX">
+                        <h3><center>BikerX</center></h3>
+                        <p>The project focuses on cutting-edge technology designed to streamline bike servicing, featuring an Emergency SOS function, a smart chatbot, and calling services that address connectivity challenges. It also provides personalized recommendations for proactive care and includes API functionality. The application is developed using Android, Flutter, Dart, and Firebase, with Figma utilized for prototyping.</p>
+                    </div>
+                    <div class="project-item">
+                        <img src="./assets/Pothole.png" alt="Pothole Detection System">
+                        <h3><center>Pothole Detection System</center></h3>
+                        <p>A real-time pothole detection system using dashcam footage and Convolutional Neural Network (CNN) models to enhance road safety. Leveraging technologies such as Python, OpenCV, and TensorFlow/Keras, the system accurately detects and classifies potholes in various road conditions and lighting scenarios while continuously processing the dashcam footage.</p>
+                    </div>
+                    <div class="project-item">
+                        <img src="./assets/Medi Kiosk.png" alt="HealthHub">
+                        <h3><center>HealthHub</center></h3>
+                        <p>The project is a web app that enhances healthcare access in rural areas through modular telemedicine kiosks, built with technologies like Node.js, Express.js, and MongoDB. Key features include Aadhaar API integration for data fetching, AI voice support, routing functionalities, Jitsi Meet for virtual consultations, and doctor prescription management. The kiosk also provides dashboard generation and email sending for comprehensive healthcare management.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-info">
+                    <a href="mailto:anushkaskumar2004@gmail.com">
+                        <i class="fas fa-envelope"></i> anushkaskumar2004@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/anushka-kumar-37b9a3293/" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      <p>Copyright &#169; 2023 Anushka Kumar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

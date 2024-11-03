@@ -1,0 +1,68 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: auto; /* Allow auto height */
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-direction: column; /* Stack items in smaller viewports */
+        align-items: center; /* Center items */
+    }
+    #contact,
+    #projects {
+        height: fit-content;
+        padding: 1.5rem; /* Added padding */
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+        padding: 1.5rem; /* Increased padding */
+    }
+    #profile,
+    .section-container {
+        display: block;
+    }
+    section {
+        margin: 20px; /* Margin for spacing */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact,
+    footer {
+        height: auto; /* Allow auto height */
+        background-color: #3498db; /* Consistent background color */
+        color: #fff; /* White text */
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap;
+        align-items: center; /* Center items */
+        justify-content: center; /* Center items */
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container {
+        width: auto; /* Responsive width */
+        height: auto; /* Responsive height */
+        justify-content: center;
+    }
+    .title {
+        font-size: 2rem; /* Adjust title size */
+    }
+    .text-container {
+        text-align: justify; /* Justify text */
+    }
+}
